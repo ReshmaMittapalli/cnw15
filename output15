@@ -1,0 +1,17 @@
+Enter target IP address: 192.168.1.100
+
+Executing Nmap scan...
+
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+
+Aggressive OS guesses:
+Microsoft Windows Server 2019 (95%)
+Microsoft Windows Server 2016 (93%)
+
+Network Distance: 1 hop
+
+Service Info: OS: Windows
