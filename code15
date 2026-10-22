@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char target[100];
+    char command[200];
+
+    printf("Enter target IP address: ");
+    scanf("%99s", target);
+
+    snprintf(command, sizeof(command),
+             "nmap -O -sV %s", target);
+
+    printf("\nExecuting Nmap scan...\n\n");
+    system(command);
+
+    return 0;
+}
